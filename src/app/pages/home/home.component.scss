@@ -1,0 +1,20 @@
+@import '../../../main-styles.scss';
+
+.centered-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container-inner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 400px;
+    padding: 43px;
+    background: white;
+}
